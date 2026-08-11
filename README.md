@@ -232,7 +232,3 @@ lunar-delivery/
 <img width="1397" height="864" alt="image" src="https://github.com/user-attachments/assets/b3409173-32cd-4b4b-bbcc-ac89a4c37be7" />
 <img width="1316" height="856" alt="image" src="https://github.com/user-attachments/assets/bdb4ac9a-4b4d-4a55-9475-a18af6dce442" />
 <img width="1383" height="849" alt="image" src="https://github.com/user-attachments/assets/d75c0a2f-c80b-4a2e-94b0-7210d2e06e56" />
-
----
-
-Удачной миссии на Луне! 🌕
