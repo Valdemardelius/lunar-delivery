@@ -1,4 +1,5 @@
-from models import Zone, RoverTemplate
+from app.models.zone import Zone
+from app.models.domain import RoverTemplate
 
 ZONES = {
     "z1": Zone(

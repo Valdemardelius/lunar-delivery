@@ -1,6 +1,6 @@
 from pathlib import Path
 
-DB_PATH = Path(__file__).parent / "lunar_run.db"
+DB_PATH = Path(__file__).parent.parent.parent / "lunar_run.db"
 DAYS_TOTAL = 15
 BASE_COORDINATES = {"x": 400, "y": 250}
 REPAIR_COST = 60

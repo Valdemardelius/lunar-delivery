@@ -2,12 +2,10 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Optional
 
-
 class RoverStatus(str, Enum):
     IDLE = "idle"
     DELIVERING = "delivering"
     BROKEN = "broken"
-
 
 class OrderStatus(str, Enum):
     PENDING = "pending"
@@ -16,37 +14,12 @@ class OrderStatus(str, Enum):
     FAILED = "failed"
     EXPIRED = "expired"
 
-
-@dataclass
-class Zone:
-    id: str
-    name: str
-    cx: float
-    cy: float
-    r: float
-    risk: float
-    base_cost: float
-    reward_mult: float
-    color: str
-
-    def get_random_point(self) -> tuple[float, float]:
-        import math
-        import random
-        angle = random.uniform(0, math.pi * 2)
-        dist = random.uniform(0.25, 0.9) * self.r
-        return self.cx + math.cos(angle) * dist, self.cy + math.sin(angle) * dist
-
-    def calculate_battery_cost(self, weight: int) -> int:
-        return round(self.base_cost + weight * 1.6)
-
-
 @dataclass
 class RoverTemplate:
     id: str
     name: str
     battery_max: int
     cargo_capacity: int
-
 
 @dataclass
 class Rover:
@@ -59,7 +32,6 @@ class Rover:
     repair_days_left: int
     current_order_id: Optional[str]
     pending_cost: int
-
 
 @dataclass
 class Order:
@@ -74,7 +46,6 @@ class Order:
     deadline_day: int
     status: OrderStatus
     assigned_rover_id: Optional[str]
-
 
 @dataclass
 class GameState:
