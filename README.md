@@ -178,4 +178,15 @@ lunar-delivery/
     ├── package.json
     └── vite.config.js
 ```
+## Скрины работы
+<img width="1400" height="891" alt="image" src="https://github.com/user-attachments/assets/bd2dfd47-a44f-4aa9-884f-0ed765e37d88" />
+<img width="1412" height="869" alt="image" src="https://github.com/user-attachments/assets/8d574fad-00c9-49fe-8379-8fd6e60f8630" />
+<img width="1397" height="864" alt="image" src="https://github.com/user-attachments/assets/b3409173-32cd-4b4b-bbcc-ac89a4c37be7" />
+<img width="1316" height="856" alt="image" src="https://github.com/user-attachments/assets/bdb4ac9a-4b4d-4a55-9475-a18af6dce442" />
+<img width="1383" height="849" alt="image" src="https://github.com/user-attachments/assets/d75c0a2f-c80b-4a2e-94b0-7210d2e06e56" />
+
+
+
+
+
 
